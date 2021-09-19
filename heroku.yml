@@ -1,5 +1,5 @@
 build:
     docker:
-        web: Dockerfile
+        8.0: Dockerfile
 run:
     web: php artisan serve --host=0.0.0.0 --port=$PORT
