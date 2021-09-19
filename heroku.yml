@@ -1,5 +1,5 @@
 build:
   docker:
-    web: Dockerfile
+    web: ./docker/8.0/Dockerfile
 run:
   web: start-container
